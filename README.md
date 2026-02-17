@@ -1,18 +1,19 @@
-# EA-JS
+# EA - TS Exercise
 
+## Requisitos Previos
 
-Instalar Typescript
+Asegúrate de tener instalados los siguientes programas en tu sistema:
+
+- [Node.js](https://nodejs.org/) (versión 14.x o superior)
+- [npm](https://www.npmjs.com/) 
+
+Instalar TypeScript
 ```
 npm install -g typescript
 ```
-donde -g indica global
 
-Transpilar de TS a JS
+## Compilar y Ejecutar
 ```
-tsc basic_types.ts
-```
-
-Ejecutar JS
-```
-node basic_types.js
+tsc
+node dist/<filename>.js
 ```
